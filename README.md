@@ -46,6 +46,17 @@ remote relays to start their computers, However everyone can use it
 
 This project is 100% written in Bash
 
+The script works by simply sending a message through a webhook using the Telegram API.
+I chose to write it in Bash to consume as little performance as possible.
+At first using the ```get_chatid.sh``` you will get the id of the chat between you and the bot
+you can add the bot to a group, it will work too
+then using the Chat ID you can Setup the core of the project ```telegram_server_alert.sh```
+after the Chat ID placed in it, you are ready to go.
+
+The whole setup of every thing should take around 15mins
+
+If you like the project don't forget to leave a Star⭐ !
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
