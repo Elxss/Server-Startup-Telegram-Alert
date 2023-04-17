@@ -1,2 +1,123 @@
-# Server-Startup-Telegram-Alert
-This Bash script sends a Telegram message on the startup of a Linux server, providing the date and time of the last power up, as well as the time of the last login. Useful for keeping an eye on startups.
+<a name="readme-top"></a>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Elxss/Server-Startup-Telegram-Alert">
+    <img src="https://raw.githubusercontent.com/Elxss/Elxss.github.io/main/src/img/logo.png" alt="Logo" width="300" height="300">
+  </a>
+
+  <h3 align="center">Server Telegram Alert on Startup</h3>
+
+  <p align="center">
+    <br />
+    <a href="https://github.com/Elxss/Server-Startup-Telegram-Alert/main/img/demo.png">View Demo</a>
+    -
+    <a href="https://github.com/Elxss/Server-Startup-Telegram-Alert/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Elxss/Server-Startup-Telegram-Alert/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#About The Project">About The Project</a></li>
+    </li>
+    <li><a href="#Installation">Installation</a></li>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+### About The Project
+
+<img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/demo.gif" alt="Demo">
+
+Not home ? But you still wanna know when your server goes online
+No problem, this project is the answer to your issue.
+
+This program runs on Linux ( Tested on [Debian](https://www.debian.org/) )
+
+This program is oriented for people like me that are using
+remote relays to start their computers, However everyone can use it
+
+This project is 100% written in Bash
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps. -->
+
+
+### Prerequisites
+
+To use this script, you will need 3 things:
+* a Telegram bot, which you can create using this video.
+* git and jq you can download them directly using the command:
+```sh
+sudo apt-get install git jq 
+```
+
+### Installation
+
+_The installation is fast (around 15 mins)_
+
+1. Then write the following command to install the repo onto your server/computer:
+    ```sh
+    git clone https://github.com/Elxss/Server-Startup-Telegram-Alert.git
+    ```
+    dont forget to go in the directory using the command:
+    ```sh
+    cd Server-Startup-Telegram-Alert
+    ```
+2. Edit the ```get_chatid.sh``` and ```telegram_server_alert.sh``` replace the telegram_bot_token with yours.
+3. Write the following commands:
+    ```sh
+    chmod +x ./get_chatid.sh ./telegram_server_alert.sh
+    ```
+4. Start a conversation with the bot on your Telegram App and then start the ```get_chatid.sh``` script:
+    ```sh
+    ./get_chatid.sh
+    ```
+5. Using the id that you got from the output of the ```get_chatid.sh``` script:
+    ```sh
+    Chat ID : 2581182769
+    ```
+    Edit the ```telegram_server_alert.sh``` replace the telegram_chat_id with yours
+6. Then you need to schedule this task at each startup.
+   You can do this using the command ```crontab -e```
+   Select the Editor that you prefer
+   Add the following ligne at the bottom of the file:
+   ```sh
+   @reboot /path/to/telegram_server_alert.sh
+   ```
+   You wan get the path using the command ```pwd``` when you are in the directory of the program
+7. Congrats! You just finished the setup of the program now at each startup you are gonna receive a message from your server
+   Leave a star⭐ if you enjoy this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Make it work
+- [ ] Make a tutorial on my [youtube channel](https://www.youtube.com/@Elxss)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Elxss - discord: Eliasss#8886 - elxssgitcontact@gmail.com - website: [elxss.github.io](https://elxss.github.io/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<p align="center">This is a Readme.md <a href="https://github.com/othneildrew/Best-README-Template/blob/master/README.md">Template</a></p>
