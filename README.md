@@ -48,12 +48,13 @@ This project is 100% written in Bash
 
 The script works by simply sending a message through a webhook using the Telegram API.
 I chose to write it in Bash to consume as little performance as possible.
+
 At first using the ```get_chatid.sh``` you will get the id of the chat between you and the bot
-you can add the bot to a group, it will work too
-then using the Chat ID you can Setup the core of the project ```telegram_server_alert.sh```
+you can add the bot to a group, it will work too.
+Then using the Chat ID you can Setup the core of the project ```telegram_server_alert.sh```
 after the Chat ID placed in it, you are ready to go.
 
-The whole setup of every thing should take around 15mins
+The whole setup of every thing should take around 15mins.
 
 If you like the project don't forget to leave a Star⭐ !
 
@@ -70,9 +71,16 @@ To get a local copy up and running follow these simple example steps. -->
 
 ### Prerequisites
 
-To use this script, you will need 3 things:
-* a Telegram bot, which you can create using this video.
-* git and jq you can download them directly using the command:
+To use this script, you will need 2 things:
+* a Telegram bot:
+  creating a telegram bot is easy the only 2 things you need to do are to send a message to the account ```@BotFather```:
+  <img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/search.gif" alt="@BotFather">
+  
+  and configuring your bot with him:
+  <img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/setup.gif" alt="Bot Setup" width="416" height="302">
+
+
+* The second on are 2 Apps, git and jq, you can download them easily using the command:
 ```sh
 sudo apt-get install git jq 
 ```
