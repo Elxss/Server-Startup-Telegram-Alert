@@ -54,7 +54,7 @@ you can add the bot to a group, it will work too.
 Then using the Chat ID you can Setup the core of the project ```telegram_server_alert.sh```
 after the Chat ID placed in it, you are ready to go.
 
-The whole setup of every thing should take around 15mins.
+The whole setup of everything should take around 15mins.
 
 If you like the project don't forget to leave a Star⭐ !
 
