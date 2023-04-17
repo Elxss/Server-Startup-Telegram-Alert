@@ -75,9 +75,11 @@ To use this script, you will need 2 things:
 * a Telegram bot:
   creating a telegram bot is easy the only 2 things you need to do are to send a message to the account ```@BotFather```:
   <br/>
+  <br/>
     <img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/search.gif" alt="@BotFather">
 
   and configuring your bot with him:
+  <br/>
   <br/>
     <img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/setup.gif" alt="Bot Setup">
 
@@ -98,20 +100,25 @@ _The installation is fast (around 15 mins)_
     ```sh
     cd Server-Startup-Telegram-Alert
     ```
+    
 2. Edit the ```get_chatid.sh``` and ```telegram_server_alert.sh``` replace the telegram_bot_token with yours.
-3. Write the following commands:
+
+4. Write the following commands:
     ```sh
     chmod +x ./get_chatid.sh ./telegram_server_alert.sh
     ```
+   
 4. Start a conversation with the bot on your Telegram App and then start the ```get_chatid.sh``` script:
     ```sh
     ./get_chatid.sh
     ```
+    
 5. Using the id that you got from the output of the ```get_chatid.sh``` script:
     ```sh
     Chat ID : 2581182769
     ```
     Edit the ```telegram_server_alert.sh``` replace the telegram_chat_id with yours
+    
 6. Then you need to schedule this task at each startup.
    You can do this using the command ```crontab -e```
    Select the Editor that you prefer
@@ -120,6 +127,7 @@ _The installation is fast (around 15 mins)_
    @reboot /path/to/telegram_server_alert.sh
    ```
    You wan get the path using the command ```pwd``` when you are in the directory of the program
+   
 7. Congrats! You just finished the setup of the program now at each startup you are gonna receive a message from your server
    Leave a star⭐ if you enjoy this project!
 
