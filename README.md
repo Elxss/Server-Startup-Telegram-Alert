@@ -74,11 +74,13 @@ To get a local copy up and running follow these simple example steps. -->
 To use this script, you will need 2 things:
 * a Telegram bot:
   creating a telegram bot is easy the only 2 things you need to do are to send a message to the account ```@BotFather```:
-  <img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/search.gif" alt="@BotFather">
-  
+  <a>
+    <img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/search.gif" alt="@BotFather">
+  </a>
   and configuring your bot with him:
-  <img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/setup.gif" alt="Bot Setup" width="416" height="302">
-
+  <a>
+    <img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/setup.gif" alt="Bot Setup" width="416" height="302">
+  </a>
 
 * The second on are 2 Apps, git and jq, you can download them easily using the command:
 ```sh
