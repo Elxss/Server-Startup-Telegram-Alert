@@ -79,7 +79,7 @@ To use this script, you will need 2 things:
 
   and configuring your bot with him:
   <br/>
-    <img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/setup.gif" alt="Bot Setup" width="621" height="452">
+    <img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/setup.gif" alt="Bot Setup">
 
 * The second on are 2 Apps, git and jq, you can download them easily using the command:
 ```sh
