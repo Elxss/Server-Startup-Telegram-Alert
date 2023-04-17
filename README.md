@@ -11,7 +11,7 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/Elxss/Server-Startup-Telegram-Alert/main/img/demo.png">View Demo</a>
+    <a href="https://github.com/Elxss/Server-Startup-Telegram-Alert/blob/main/img/demo.png">View Demo</a>
     -
     <a href="https://github.com/Elxss/Server-Startup-Telegram-Alert/issues">Report Bug</a>
     ·
@@ -34,7 +34,7 @@
 
 ### About The Project
 
-<img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/demo.gif" alt="Demo">
+<img src="https://raw.githubusercontent.com/Elxss/Server-Startup-Telegram-Alert/main/img/demo.gif" alt="Demo" width="321" height="288">
 
 Not home ? But you still wanna know when your server goes online
 No problem, this project is the answer to your issue.
