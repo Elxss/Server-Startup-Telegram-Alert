@@ -8,6 +8,7 @@
   </a>
   <h1 align="center">PLEASE STOP USING TELEGRAM</h1>
   <h1 align="center">SWITCH TO MORE PRIVACY FRIENDLY PLATFORMS</h1>
+  <h3 align="center">I've decided to archive this repo following telegram's change of policy and it's not a repo that has had any interaction with other users.</h3>
   <h3 align="center">Server Telegram Alert on Startup</h3>
 
   <p align="center">
