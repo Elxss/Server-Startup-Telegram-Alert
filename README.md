@@ -6,7 +6,8 @@
   <a href="https://github.com/Elxss/Server-Startup-Telegram-Alert">
     <img src="https://raw.githubusercontent.com/Elxss/Elxss.github.io/main/src/img/logo.png" alt="Logo" width="300" height="300">
   </a>
-
+  <h1 align="center">PLEASE STOP USING TELEGRAM</h1>
+  <h1 align="center">SWITCH TO MORE PRIVACY FRIENDLY PLATFORMS</h1>
   <h3 align="center">Server Telegram Alert on Startup</h3>
 
   <p align="center">
